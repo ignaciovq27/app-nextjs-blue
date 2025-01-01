@@ -11,16 +11,16 @@ import Image from "next/image";
 const HomePage = () => {
   return (
     <div className=" bg-gradient-to-r from-slate-200 via-blue-500 to-blue-700 min-h-screen grid place-content-center">
-      <article className="bg-white grid grid-cols-1  m-5 rounded-3xl items-center md:grid-cols-2 md:min-w-[650px]">
+      <article className="bg-white grid grid-cols-1 m-5 rounded-3xl items-center md:grid-cols-2 md:min-w-[650px]">
 
         {/* section # 1 */}
-        <section className="p-12 pt-3 space-y-2 order-last rounded-3xl md:pt-12">
-          <h1 className="text-center text-3xl md:text-4xl font-bold tracking-wide pb-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-600 bg-clip-text text-transparent">Stay updated!</h1>
-          <p className="text-center">Join <b>60,000+ product managers </b>receiving monthly updates on:</p>
-          <ul className="py-3 md:3 space-y-1 md:space-y-1 pt-2 md:pl-12">
-            <ItemList icon={CircleCheck} itemText="Product discovery and building what matters" />
-            <ItemList icon={CircleCheck} itemText="Measuring to ensure updates are a success" />
-            <ItemList icon={CircleCheck} itemText="And much more!" />
+        <section className="p-6 md:p-12 pt-3 space-y-2 order-last rounded-3xl md:pt-12  max-w-xl">
+          <h1 className="text-center text-3xl md:text-4xl font-bold tracking-wide pb-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-blue-600 bg-clip-text text-transparent">¡Recibe noticias de aves!</h1>
+          <p className="text-left ">Únete a más de <b>60.000 apasionados de las aves </b>quienes reciben actualizaciones mensuales sobre:</p>
+          <ul className="py-3 space-y-1 md:space-y-1 pt-2 md:pl-12">
+            <ItemList icon={CircleCheck} itemText="Descubrimientos sobre plumajes, rutas de vuelos y comportamientos únicos de especies." />
+            <ItemList icon={CircleCheck} itemText="Datos esenciales para conocer sobre como interactúan con sus nidos y hábitats." />
+            <ItemList icon={CircleCheck} itemText="Y mucho más!" />
           </ul>
           <EmailForm />
         </section>
@@ -33,6 +33,7 @@ const HomePage = () => {
             width={300}
             height={600}
             alt="main_image.jpg"
+            priority
           />
         </section>
 

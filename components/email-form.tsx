@@ -43,7 +43,7 @@ const formSchema = z.object({
 })
 
 export function EmailForm() {
-    // State to manage dialog
+    // 0. State to manage dialog
     const [isDialogOpen, setIsDialogOpen] = useState(false);
 
     // 1. Define your form.

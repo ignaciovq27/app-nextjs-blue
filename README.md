@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐥 ¡Recibe noticias de aves!
 
-## Getting Started
+Proyecto desarrollado para ofrecer un newsletter dedicado a los apasionados de las aves, brindando actualizaciones mensuales sobre descubrimientos, datos esenciales y mucho más.
 
-First, run the development server:
+## 🦉 Descripción del Proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este proyecto permite a los usuarios suscribirse a un boletín informativo sobre aves y recibir correos con información actualizada cada semana. Entre los temas destacados que cubre el boletín se encuentran:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Descubrimientos sobre plumajes, rutas de vuelos y comportamientos únicos de especies.**
+- **Datos esenciales sobre cómo interactúan con sus nidos y hábitats.**
+- **¡Y mucho más para los amantes de la naturaleza y la ornitología!**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🐧 Tecnologías Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto fue construido utilizando tecnologías modernas y herramientas populares del ecosistema web:
 
-## Learn More
+- [**Next.js**](https://nextjs.org): Framework de React para el desarrollo web.
+- [**Tailwind CSS**](https://tailwindcss.com): Framework de utilidades CSS para diseñar interfaces rápidamente.
+- [**Shadcn**](https://ui.shadcn.com/): Componentes estilizados y reutilizables para interfaces de usuario.
+- [**Lucide Icons**](https://lucide.dev/): Biblioteca de íconos SVG modernos.
+- [**Vercel**](https://vercel.com): Deploy en Plataforma para alojar aplicaciones frontend.
 
-To learn more about Next.js, take a look at the following resources:
+## 🕊 Enlace al Proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Accede al proyecto en producción desde el siguiente enlace: [**https://app-noticias-aves.vercel.app/**](https://app-noticias-aves.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🦅 Capturas de Pantalla
+<div align="center">
+  <h2><b>Versión Desktop</b></h2>
+  <img src="https://github.com/user-attachments/assets/8e95933d-bf51-40d4-a604-39a6f63ec4a4" alt="Recibe Noticias de Aves" width="900" />
+</div>
 
-## Deploy on Vercel
+<div align="center">
+  <h2><b> Versión Mobile</b></h2>
+  <img src="https://github.com/user-attachments/assets/dee33d0d-7b67-4718-8a65-9c4770a77bec" alt="Recibe Noticias de Aves" width="300" />
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🥚 Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Si tienes alguna pregunta o sugerencia sobre este proyecto, **no dudes en ponerte en contacto conmigo a través de mi perfil de GitHub.**

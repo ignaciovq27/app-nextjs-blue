@@ -8,7 +8,7 @@ Este proyecto permite a los usuarios suscribirse a un boletín informativo sobre
 
 - **Descubrimientos sobre plumajes, rutas de vuelos y comportamientos únicos de especies.**
 - **Datos esenciales sobre cómo interactúan con sus nidos y hábitats.**
-- **Y mucho más para los amantes de la naturaleza y la ornitología.**
+- **¡Y mucho más para los amantes de la naturaleza y la ornitología!**
 
 ## 🐧 Tecnologías Utilizadas
 
@@ -22,8 +22,7 @@ Este proyecto fue construido utilizando tecnologías modernas y herramientas pop
 
 ## 🕊 Enlace al Proyecto
 
-Accede al proyecto en producción desde el siguiente enlace:  
-[**https://app-nextjs-blue.vercel.app/**](https://app-nextjs-blue.vercel.app/)
+Accede al proyecto en producción desde el siguiente enlace: [**https://app-noticias-aves.vercel.app/**](https://app-noticias-aves.vercel.app/)
 
 ## 🦅 Capturas de Pantalla
 <div align="center">
